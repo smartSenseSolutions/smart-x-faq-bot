@@ -66,8 +66,6 @@ python run.py
 * FastAPI runs at: [http://localhost:8001/docs](http://localhost:8001/docs)
 * Streamlit UI at: [http://localhost:8501](http://localhost:8501)
 
-ℹ️ Note: On first run, the container will download the `all-mpnet-base-v2` model. This may take a few minutes.
-
 ---
 
 ## 📊 Sample Data Format
@@ -104,7 +102,6 @@ docker run -p 8001:8001 -p 8501:8501 \
   -v $(pwd)/data/uploaded_data:/app/data/uploaded_data \
   smart-x-faq-bot
 ```
-ℹ️ Note: On first run, the container will download the `all-mpnet-base-v2` model. This may take a few minutes.
 
 ---
 
