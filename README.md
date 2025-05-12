@@ -17,6 +17,9 @@ smart-x-faq-bot/
 │   │   ├── intent_service.py         # Logic to run predictions
 │   │   └── training.py               # Model training logic
 │   └── __init__.py
+├── architecture/
+│   ├── architecture.md               # Architecture description and explanation
+│   └── smart-x-faq-bot.svg           # SVG diagram of system architecture
 ├── data/
 │   ├── uploaded_data/                # Uploaded training files
 │   ├── intent_answers.json           # Mapping of intent to answer
@@ -30,7 +33,9 @@ smart-x-faq-bot/
 ├── Dockerfile                        # Containerization setup
 └── .gitignore
 ```
+## 📁 Architecture
 
+* Architecture: [Read detailed architecture explanation here](architecture/architecture.md)
 
 ---
 
